@@ -2,7 +2,7 @@ fn main() {
     let mut float_value: f32 = 0.0; // Example float value
     let mut int_value: i32 = 0; // first int variable to multiply with
 
-    let max_val: i32 = 5000; // maximum value to calculate to.
+    let max_val: i32 = 10000; // maximum value to calculate to.
     
     for _i in 1..=max_val {
         for _j in 1..=max_val {
