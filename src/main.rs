@@ -4,22 +4,20 @@ use std::io::Write;
 fn main() {
     calc_oddballs();
 
-    if true {
     // Calculate the range of numbers iterating from 1 to 7000 for the integer and float values individually.
     let file_name = String::from("IntFloatError_Rust.csv");
     calc_number_range(10000, &file_name);
-    }
 }
 
 fn calc_oddballs() {
     println!("{}", produce_header());
 
-    println!("{}", calc_multiplications(3055, 6111 as f32));
+    println!("{}", calc_multiplications(1683, 9971 as f32));
     println!("{}", calc_multiplications(2399, 6995 as f32));
-    println!("{}", calc_multiplications(3055, 6995 as f32));
     println!("{}", calc_multiplications(2401, 6997 as f32));
     println!("{}", calc_multiplications(2797, 5999 as f32));
-    println!("{}", calc_multiplications(1683, 9971 as f32));
+    println!("{}", calc_multiplications(3055, 6111 as f32));
+    println!("{}", calc_multiplications(3055, 6995 as f32));
 }
 
 fn calc_number_range(max_val: i32, file_name: &str) {
