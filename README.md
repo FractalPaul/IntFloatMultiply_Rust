@@ -6,4 +6,9 @@ Linux:
 $ rustc main.rs
 $ ./main
 ```
-On Linux there isn't any discrepancies.
+```terminal
+$ cargo build
+$ cargo run
+```
+Output of console...
+![IntFloat Odd Ball Rust](https://github.com/user-attachments/assets/70cb2b60-6f4f-474c-bff2-ca7d93df88e0)
