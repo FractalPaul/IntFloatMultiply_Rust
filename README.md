@@ -28,6 +28,6 @@ To perform the Odd ball calculation execute without any parameters.
 ```terminal
 $ cargo run
 ```
-The Odd Ball calculation is a predetermined set of numbers that cause an error.  These are set to compare to other platforms and languages such as C or Rust.
+The Odd Ball calculation is a predetermined set of numbers that cause an error.  These are set to compare to other platforms and languages such as C or C#.
 Odd ball calulations...
 ![IntFloat Odd Ball Rust](https://github.com/user-attachments/assets/d7641035-5ebf-41ac-858a-81bb95b4d33d)
